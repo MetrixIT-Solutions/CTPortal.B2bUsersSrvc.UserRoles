@@ -1,0 +1,18 @@
+{
+    "license": "Copyright (C) SkillworksIT Solutions Pvt Ltd - All Rights Reserved. Unauthorized copying of this file, via any medium is strictly prohibited. Proprietary and confidential. Written by Skillworks IT <contact@skillworksit.com>, Aug 2024",
+    "mongoDBConnection": "mongodb://localhost:27017/ctp_b2b_user_roles",
+
+    "senderMail": "skillworksit@gmail.com",
+    "senderMailPswd": "nvkldrtevztbkvyv",
+    "smtp": "smtp.gmail.com",
+    "smtpPort": 465,
+    "from": "NoReply<skillworksit@gmail.com>",
+    "jwtSecretKey": "CTP!&J*$D@-kv^NPa6ter$|Dev",
+    "criptoTokenKey": "AK17!&J*$D@^N|Ctp@B2b#Apkv22|Dev",
+    "dbSecretKey": "CtpDB@AK17!&*$D@^N|B2B#A22kv|Dev",
+
+    "ssnApi": "http://localhost:3401/ctpb2b/v1/users/auth-user/session",
+    "rUserApi": "http://localhost:3402/ctpb2b/v1/users/byrole",
+
+    "apiHost": "http://localhost:3403/"
+}

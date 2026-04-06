@@ -1,0 +1,14 @@
+{
+  "appName": "CT(Candidates Tracking) Portal Partners - B2B Partner User Roles API Service",
+  "license": "Copyright (C) SkillworksIT Solutions Pvt Ltd - All Rights Reserved. Unauthorized copying of this file, via any medium is strictly prohibited. Proprietary and confidential. Written by Skillworks IT <contact@skillworksit.com>, Aug 2024",
+
+  "c3Code": "IND",
+  "c2Code": "IN",
+  "rGrp": "Level01",
+  "rType": "Principal",
+  "cuType": "B2B User",
+  "utApp": "App",
+  "utech": "Tech",
+  "utm": "Management",
+  "sa": "Super Admin"
+}

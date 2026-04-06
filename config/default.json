@@ -1,0 +1,21 @@
+{
+    "appName": "CT(Candidates Tracking) Portal Partners - B2B Partner User Roles API Service",
+    "license": "Copyright (C) SkillworksIT Solutions Pvt Ltd - All Rights Reserved. Unauthorized copying of this file, via any medium is strictly prohibited. Proprietary and confidential. Written by Skillworks IT <contact@skillworksit.com>, Aug 2024",
+    "mySalt": "90889ff4575280f5af56c1ca1aab4ae7",
+    "mySaltLen": 32,
+
+    "logName": "ctpB2BUserRolesApiLogger",
+    "logFilesPath": "logs/ctpb2buserroles.api.log",
+    "logDtPattern": "YYMMDD",
+    "logFilesLevel": "debug",
+
+    "mobSsnExprType": "days",
+    "mobSsnExpr": 90,
+    "webSsnExprType": "days",
+    "webSsnExpr": 8,
+    "otpSsnExprType": "minutes",
+    "otpSsnExpr": 10,
+
+    "collB2BUserRoles": "b2b_user_roles",
+    "collB2BUserRolesAccess": "b2b_user_roles_access"
+}

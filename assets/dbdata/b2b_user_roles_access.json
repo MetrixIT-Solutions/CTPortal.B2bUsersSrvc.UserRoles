@@ -1,0 +1,5733 @@
+[{
+	"_id" : "41ee20cf-deab-49d1-aad2-8a5e7a11c704",
+	"raSeq" : 1,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "653bc9f0-b46a-4a31-a99a-877b3aa8e556",
+	"rGroup" : "Level01",
+	"rType" : "Management",
+	"rName" : "Director",
+	"rCode" : "DIR",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:31:52.000+05:30"),
+	"cDtStr" : "2024-11-25 13:31:52",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:31:52.000+05:30"),
+	"uDtStr" : "2024-11-25 13:31:52",
+	"__v" : 0
+},
+{
+	"_id" : "3d5c7e27-246a-4001-9b4d-b306ddde4910",
+	"raSeq" : 2,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "6f269c24-b841-4990-aef8-519934b34faa",
+	"rGroup" : "Level01",
+	"rType" : "Management",
+	"rName" : "Chief Executive Officer",
+	"rCode" : "CEO",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:33:56.000+05:30"),
+	"cDtStr" : "2024-11-25 13:33:56",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:33:56.000+05:30"),
+	"uDtStr" : "2024-11-25 13:33:56",
+	"__v" : 0
+},
+{
+	"_id" : "5eac39e7-b988-4eae-9f53-c28cc23cec3d",
+	"raSeq" : 3,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "6784488f-b0ae-4e96-a379-d6493e456d79",
+	"rGroup" : "Level01",
+	"rType" : "Employee",
+	"rName" : "Onsite Manager",
+	"rCode" : "ONM",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:36:12.000+05:30"),
+	"cDtStr" : "2024-11-25 13:36:12",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:36:12.000+05:30"),
+	"uDtStr" : "2024-11-25 13:36:12",
+	"__v" : 0
+},
+{
+	"_id" : "29e888ae-d80b-43cb-84aa-189f54625e93",
+	"raSeq" : 4,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "3e681136-aa1a-4ffd-84ea-f0ca9f828935",
+	"rGroup" : "Level01",
+	"rType" : "Employee",
+	"rName" : "Onsite Lead",
+	"rCode" : "ONL",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:38:26.000+05:30"),
+	"cDtStr" : "2024-11-25 13:38:26",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:38:26.000+05:30"),
+	"uDtStr" : "2024-11-25 13:38:26",
+	"__v" : 0
+},
+{
+	"_id" : "d0a515f3-7e93-4a74-82dc-a51538eac531",
+	"raSeq" : 5,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "594a086a-36c1-463d-b45a-37b98fed2f2e",
+	"rGroup" : "Level01",
+	"rType" : "Employee",
+	"rName" : "Offshore Manager",
+	"rCode" : "OFM",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:41:03.000+05:30"),
+	"cDtStr" : "2024-11-25 13:41:03",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:41:03.000+05:30"),
+	"uDtStr" : "2024-11-25 13:41:03",
+	"__v" : 0
+},
+{
+	"_id" : "395dbf8f-4f92-4a82-919e-f182aa88ecd6",
+	"raSeq" : 6,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "47a165d5-b4b5-443e-8025-7deaf548ca78",
+	"rGroup" : "Level01",
+	"rType" : "Employee",
+	"rName" : "Offshore Lead",
+	"rCode" : "OFL",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:43:03.000+05:30"),
+	"cDtStr" : "2024-11-25 13:43:03",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:43:03.000+05:30"),
+	"uDtStr" : "2024-11-25 13:43:03",
+	"__v" : 0
+},
+{
+	"_id" : "74ab007e-c6fa-4d7a-bcd9-b0ae54b2169a",
+	"raSeq" : 7,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "a248b638-0484-46dd-9c5c-eb113f1a6d92",
+	"rGroup" : "Level01",
+	"rType" : "Employee",
+	"rName" : "Mentor",
+	"rCode" : "MNTR",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:45:45.000+05:30"),
+	"cDtStr" : "2024-11-25 13:45:45",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:50:44.000+05:30"),
+	"uDtStr" : "2024-11-25 13:50:44",
+	"__v" : 0
+},
+{
+	"_id" : "144e2d06-4e29-48c6-b31a-ef312933d838",
+	"raSeq" : 8,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "e13d210b-2f4b-47e0-8d92-4f5834999cca",
+	"rGroup" : "Level01",
+	"rType" : "Employee",
+	"rName" : "Recruiter",
+	"rCode" : "OFR",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : true
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:48:42.000+05:30"),
+	"cDtStr" : "2024-11-25 13:48:42",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:48:42.000+05:30"),
+	"uDtStr" : "2024-11-25 13:48:42",
+	"__v" : 0
+},
+{
+	"_id" : "ea533ddc-e412-4a6c-a0b5-9b72976145de",
+	"raSeq" : 9,
+	"b2b" : "CTB2BP100001",
+	"b2bName" : "Teksolve IT Solutions LLC",
+	"b2bCode" : "teksolve",
+	"role" : "3b3753b6-feba-4213-aee9-5ebb4cd49b26",
+	"rGroup" : "Level01",
+	"rType" : "Employee",
+	"rName" : "Invisilator",
+	"rCode" : "INVLTR",
+	"user" : "",
+	"uName" : "",
+	"urefUID" : "",
+	"uPrimary" : "",
+	"org" : "",
+	"orgName" : "",
+	"orgCode" : "",
+	"orgs" : [ ],
+	"orgNames" : [ ],
+	"obId" : "",
+	"obName" : "",
+	"obCode" : "",
+	"obIds" : [ ],
+	"obNames" : [ ],
+	"team" : "",
+	"tName" : "",
+	"tCode" : "",
+	"teams" : [ ],
+	"tNames" : [ ],
+	"access" : [
+		{
+			"_id" : "101.Dashboard",
+			"pName" : "Dashboard",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.Invitations",
+					"aName" : "Invitations",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.Consultants",
+					"aName" : "Consultants",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Submissions",
+					"aName" : "Submissions",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Interviews",
+					"aName" : "Interviews",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "102.Organizations",
+			"pName" : "Organizations",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "103.Branches",
+			"pName" : "Branches",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Location",
+					"aName" : "Location",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Organization Info",
+					"aName" : "Organization Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "104.Teams",
+			"pName" : "Teams",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "105.Vendors",
+			"pName" : "Vendors",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Contact Info",
+					"aName" : "Contact Info",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "106.Admin Users",
+			"pName" : "Admin Users",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "107.Consultants",
+			"pName" : "Consultants",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Change Password",
+					"aName" : "Change Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Reset Password",
+					"aName" : "Reset Password",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "109.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "114.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "115.Education",
+					"aName" : "Education",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "116.Experience",
+					"aName" : "Experience",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "117.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "108.Invitations",
+			"pName" : "Invitations",
+			"isAlwd" : false,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Delete",
+					"aName" : "Delete",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Approve",
+					"aName" : "Approve",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.Complete Profile",
+					"aName" : "Complete Profile",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "107.Meeting",
+					"aName" : "Meeting",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "108.Notes",
+					"aName" : "Notes",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "109.Reviewer",
+					"aName" : "Reviewer",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "110.Personal Info",
+					"aName" : "Personal Info",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Emergency Contact",
+					"aName" : "Emergency Contact",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "112.Residential Address",
+					"aName" : "Residential Address",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "113.USA National ID",
+					"aName" : "USA National ID",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "114.Work Authorization",
+					"aName" : "Work Authorization",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "115.Passport Details",
+					"aName" : "Passport Details",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "116.Education",
+					"aName" : "Education",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "117.Experience",
+					"aName" : "Experience",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "118.Employers Details",
+					"aName" : "Employers Details",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "119.Reject",
+					"aName" : "Reject",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "109.Candidates",
+			"pName" : "Candidates",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Invite",
+					"aName" : "Invite",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				}
+			]
+		},
+		{
+			"_id" : "110.Submissions",
+			"pName" : "Submissions",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Create",
+					"aName" : "Create",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "104.Update",
+					"aName" : "Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "106.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Schedule Interview",
+					"aName" : "Schedule Interview",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Payrate",
+					"aName" : "Payrate",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "111.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "112.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "113.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		},
+		{
+			"_id" : "111.Interviews",
+			"pName" : "Interviews",
+			"isAlwd" : true,
+			"actions" : [
+				{
+					"_id" : "101.List",
+					"aName" : "List",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "102.View",
+					"aName" : "View",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "103.Update",
+					"aName" : "Update",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "104.Status Update",
+					"aName" : "Status Update",
+					"isAlwd" : false
+				},
+				{
+					"_id" : "105.List Status Counts",
+					"aName" : "List Status Counts",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "106.Followups",
+					"aName" : "Followups",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "107.Lifecycle",
+					"aName" : "Lifecycle",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "108.Feedback",
+					"aName" : "Feedback",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "109.Job Location",
+					"aName" : "Job Location",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "110.Vendor",
+					"aName" : "Vendor",
+					"isAlwd" : true
+				},
+				{
+					"_id" : "111.Vendor Contact",
+					"aName" : "Vendor Contact",
+					"isAlwd" : false
+				}
+			]
+		}
+	],
+	"delFlag" : false,
+	"cuType" : "B2B User",
+	"cUser" : "CTB2BTEKSOLVE1000001",
+	"cuName" : "Super User",
+	"cDate" : ISODate("2024-11-25T13:50:16.000+05:30"),
+	"cDtStr" : "2024-11-25 13:50:16",
+	"uuType" : "B2B User",
+	"uUser" : "CTB2BTEKSOLVE1000001",
+	"uuName" : "Super User",
+	"uDate" : ISODate("2024-11-25T13:50:16.000+05:30"),
+	"uDtStr" : "2024-11-25 13:50:16",
+	"__v" : 0
+}]
